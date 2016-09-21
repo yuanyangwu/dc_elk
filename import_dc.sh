@@ -34,7 +34,7 @@ function import_file {
   else
     CAT="cat"
   fi
-  local CMD="$CAT $FILE_PATH | FILENAME=$FILE_NAME SP=$SP $LOG_STASH_BIN --allow-env -f $LOG_STASH_CONF"
+  local CMD="date && $CAT $FILE_PATH | FILENAME=$FILE_NAME SP=$SP $LOG_STASH_BIN --allow-env -f $LOG_STASH_CONF"
   echo "echo '$CMD' && $CMD" >> $TMP_CMD
 }
 
