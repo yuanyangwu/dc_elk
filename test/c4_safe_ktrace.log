@@ -1,0 +1,11 @@
+2016/08/30-08:02:57.1000000 3589     7F587FF56702      std:CMIscd1.0: Queue Target Discovery for context 0x0
+2016/08/30-09:49:18.933716    8     7F585D1FF700      std:INFO LIB     A  100C0 : Shim Zero fill: lba 0x3ccea000, blocks 8192, exp block size 520, imp block size 520
+2016/08/30-09:49:18.933712 ~~~~     7F585D19E701      std:INFO OBJ     2  100C0 : UZ:zero request, start_lba:0x1c918800, blk:0x800, chk_count:0x1.
+2016/08/30-09:49:18.959938  26K     7F586139E700      std:INFO OBJ     3  100C0 : UZ:set_chkpt NP lock acquired
+2016/08/30-09:49:28.505937  29K     7F4FE3ABF706     user:TLDlistener: 7fe8c39ad700:  UpdateSubFruCPU - spindex 1, MySPId= 0  isPeerInserted=1
+2016/08/30-09:49:28.510153 4216     7F586133D701      std:INFO SERV META  100C0 : nonpaged_persist: complete: lba: 0x808 blks: 0x8 status: 1 qual: 1
+2016/08/30-09:49:28.521037    2     7F4E227A6704     sade:UFS: 6:[core]  ead:16 MaxDirtyEver:60 ioLatency:8374 fsMaxCount:12 fs:0x000608cd58
+2016/08/30-09:49:28.524563 3526     7F4FE3B47707     user:TLDlistener: 7fe8c39ad700:  UpdateSubFruDIMM - spindex 1, MySPId= 0  isPeerInserted=1
+2016/08/30-09:49:58.125966    1     7F585459E705      mlu:MLU I: MluFSMgrUpdateFamilyReplicaStats[14058]{Family replica stats update completed for FS 0x20000011A,
+2016/08/30-09:49:58.125966    0     7F585459E705      mlu:MLU I: MluFSMgrUpdateFamilyReplicaStats[14058]} ReplicaStatsUpdatedObjCount 3
+2016/08/30-09:49:58.126285  319     7F585459E705     cbfs:CBFSA: CBFS: 6: APISYNC get_file_system_properties_bulk_internal: fsType 0, reqBufCnt(18)
