@@ -5,7 +5,7 @@ if [ "$#" -ne 1 ]; then
 fi
 
 echo "Launch ELK"
-docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -p 5000:5000 -v /home/c4dev/dc_elk:/dc_elk -d -e ES_HEAP_SIZE="2g" -e LS_HEAP_SIZE="1g" --name elk sebp/elk
+docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -p 5000:5000 -v $( pwd ):/dc_elk -d -e ES_HEAP_SIZE="2g" -e LS_HEAP_SIZE="1g" --name elk sebp/elk
 
 echo "Wait for ELK launch completion"
 sleep 10
