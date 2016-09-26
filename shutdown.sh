@@ -1,2 +1,3 @@
-docker kill elk > /dev/null
-docker rm elk > /dev/null
+NAME=elk
+docker kill $NAME > /dev/null
+docker rm $NAME > /dev/null

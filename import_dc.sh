@@ -4,7 +4,7 @@ LOG_STASH_BIN="/opt/logstash/bin/logstash"
 LOG_STASH_CONF_PROVIDER="/dc_elk/config/provider.conf"
 LOG_STASH_CONF_C4_SAFE_KTRACE="/dc_elk/config/c4_safe_ktrace.conf"
 TMP_CMD="/tmp/import_cmds.sh"
-PARALLEL=6
+PARALLEL=9
 
 function import_file {
   local FILE_PATH=$1
